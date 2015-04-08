@@ -20,8 +20,8 @@ public class TestMethodOverloading {
 
    public static void main(String[] args){
       System.out.println("Method Average Pertama = "+average(1,2));
-      System.out.println("Method Average Kedua = "+average(1.0,2.0));
-      System.out.println("Method Average Ketiga = "+average(1,2,3));
+      System.out.println("Method Average Kedua   = "+average(1.0,2.0));
+      System.out.println("Method Average Ketiga  = "+average(1,2,3));
       System.out.println("Method Average Keempat = "+average(1,2,3,4));
       System.out.println(average(1.0,2));
 
