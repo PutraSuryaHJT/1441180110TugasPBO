@@ -11,7 +11,9 @@ public class Liga {
     ArrayList<Divisi> daftarDivisi = new ArrayList<Divisi>();
     ArrayList<Klub> daftarKlub = new ArrayList<Klub>();
 
-    public Liga(String namaLiga) {this.namaLiga = namaLiga;}
+    public Liga(String namaLiga) {
+        this.namaLiga = namaLiga;
+    }
 
     public String getNamaLiga() {
         return namaLiga;

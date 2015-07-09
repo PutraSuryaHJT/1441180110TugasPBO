@@ -28,11 +28,17 @@ public class Main {
         Inggris.setDaftarKlub(tiga3);
         Inggris.setDaftarKlub(empat4);
 
+        Italy.setDaftarKlub(lima5);
+        Italy.setDaftarKlub(enam6);
+
         tingkat1.setDaftarKlub(satu1);
         tingkat1.setDaftarKlub(dua2);
 
         tingkat2.setDaftarKlub(tiga3);
         tingkat2.setDaftarKlub(empat4);
+
+        serieA.setDaftarKlub(lima5);
+        serieB.setDaftarKlub(enam6);
 
         System.out.println("1. Get daftar divisi by namaLiga");
         System.out.println("Liga   = " + Inggris.getNamaLiga());
@@ -71,5 +77,6 @@ public class Main {
         System.out.println("Klub empat = " + empat4.getNamaKlub() + " berasal dari " + empat4.getLiga());
         System.out.println("Klub lima = " + lima5.getNamaKlub() + " berasal dari " + lima5.getLiga());
         System.out.println("Klub enam = " + enam6.getNamaKlub() + " berasal dari " + enam6.getLiga());
+
     }
 }
