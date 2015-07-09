@@ -4,7 +4,6 @@ import java.util.ArrayList;
 /**
  * Created by Putra on 7/6/2015.
  */
-
 public class Liga {
     private String namaLiga;
 

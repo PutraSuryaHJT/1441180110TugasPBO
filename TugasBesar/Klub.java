@@ -3,7 +3,6 @@ package TugasBesar;
 /**
  * Created by Putra on 7/6/2015.
  */
-
 public class Klub {
     private String namaKlub;
     private Divisi divisi;

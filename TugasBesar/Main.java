@@ -53,8 +53,10 @@ public class Main {
         System.out.println("\n");
 
         System.out.println("3. Get daftar klub by namaDivisi");
-        System.out.println("Liga   = " + Inggris.getNamaLiga());
-        System.out.println("Klub   = " +tingkat1.getDaftarKlub() + ", " +tingkat2.getDaftarKlub());
+        System.out.println("Klub   = " +Inggris.getDaftarKlub());
+        System.out.println("Divisi   = " +tingkat1.getNamaDivisi() + ", " +tingkat2.getNamaDivisi());
+        System.out.println("Klub   = " +Italy.getDaftarKlub());
+        System.out.println("Divisi   = " +serieA.getNamaDivisi() + ", " +serieB.getNamaDivisi());
 
         System.out.println("\n");
 

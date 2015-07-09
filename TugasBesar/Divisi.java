@@ -5,7 +5,6 @@ import java.util.ArrayList;
 /**
  * Created by Putra on 7/6/2015.
  */
-
 public class Divisi {
     private String namaDivisi;
     ArrayList<Klub> daftarKlub = new ArrayList<Klub>();
